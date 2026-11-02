@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pydantic[email]
+requests 
+google-genai
+python-dotenv
+email_validator
