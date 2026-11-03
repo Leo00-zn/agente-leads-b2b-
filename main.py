@@ -16,7 +16,7 @@ BASEROW_URL = f"https://api.baserow.io/api/database/rows/table/{BASEROW_TABLE_ID
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")  
 
-gemini_client = genai.Client(api_key=GEMINI_API_KEY) if GEMINI_API_KEY else None
+gemini_client = genai.Client(api_key=GEMINI_API_KEY) if GEMINI_API_KEY else None # Cole aqui o seu token da API do GEMINI
 
 app = FastAPI(
     title="Microserviço de Enriquecimento de Leads B2B", 
